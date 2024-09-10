@@ -1,0 +1,9 @@
+{
+  "extends": "@parcel/config-default",
+  "transformers": {
+    "*.js": ["@parcel/transformer-js"],
+    "*.css": ["@parcel/transformer-css"],
+    "*.jpg": ["@parcel/transformer-image"],
+    "*.png": ["@parcel/transformer-image"]
+  }
+}
